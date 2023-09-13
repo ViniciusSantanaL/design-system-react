@@ -1,7 +1,8 @@
 {
-  "name": "docs",
+  "name": "@viniciussls-ignite-ui/docs",
   "private": true,
   "version": "0.0.0",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -9,11 +10,12 @@
     "build": "storybook build"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@viniciussls-ignite-ui/eslint-config": "*",
     "@viniciussls-ignite-ui/react": "*",
     "@viniciussls-ignite-ui/tokens": "*",
-    "@viniciussls-ignite-ui/eslint-config": "*"
+    "polished": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.4.1",
